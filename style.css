@@ -1,0 +1,99 @@
+body{
+	background-color: rgb(245, 244, 240);
+}
+
+h1 {
+	font-family: Helvetica;
+	margin: 0 auto 200px auto;
+}
+
+h2 {
+	font-family: Helvetica;
+	margin: 0 auto 200px auto;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: Helvetica;
+	margin: 0 auto 200px auto;
+	font-size: 50px;
+}
+
+.rock {
+	position: absolute;
+	left: 0px;
+	top: 250px;
+	height: 50px;
+	width: 50px;
+}
+
+.paper {
+	position: absolute;
+	left: 260px;
+	top: 200px;
+}
+
+.scissors {
+	position: absolute;
+	left: 560px;
+	top: 200px;
+}
+
+.enemy_rock {
+	position: absolute;
+	top: 240px;
+	left: 700px;
+	display: none;
+}
+
+.enemy_paper {
+	position: absolute;
+	left: 700px;
+	top: 200px;
+	display: none;
+}
+
+.enemy_scissors {
+	position: absolute;
+	left: 720px;
+	top: 200px;
+	display: none;
+}
+
+.youWin {
+	position: absolute;
+	top: 600px;
+	display: none;
+}
+
+.youLose {
+	position: absolute;
+	top: 600px;
+	display: none;
+}
+
+.youTie {
+	position: absolute;
+	top: 600px;
+	display: none;
+}
+
+.vs {
+	position: absolute;
+	top: 300px;
+	left: 600px;
+	display: none;
+}
+
+.you {
+	position: absolute;
+	top: 300px;
+	display: none;
+}
+
+.cpu {
+	position: absolute;
+	top: 300px;
+	right: 5px;
+	display: none;
+}
