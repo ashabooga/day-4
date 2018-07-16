@@ -60,40 +60,13 @@ h3 {
 	display: none;
 }
 
-.youWin {
-	position: absolute;
-	top: 600px;
-	display: none;
-}
-
-.youLose {
-	position: absolute;
-	top: 600px;
-	display: none;
-}
-
-.youTie {
-	position: absolute;
-	top: 600px;
-	display: none;
-}
-
-.vs {
-	position: absolute;
-	top: 300px;
-	left: 600px;
-	display: none;
-}
-
 .you {
 	position: absolute;
-	top: 300px;
 	display: none;
 }
 
 .cpu {
 	position: absolute;
-	top: 300px;
 	right: 5px;
 	display: none;
 }
